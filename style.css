@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #fdfcdc; */
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('background1.jpg');
+    background-size: cover;
+    
+    
+}
+ /* .container{
+    background-color: white;
+    padding:2rem;
+    border-radius: 1rem;
+    min-height: 25vh;
+    width:80vh;
+    justify-content: center;
+    margin-top:20rem ;
+    border-bottom: blue;
+   
+} */
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 25vh;
+    width: 80vh;
+    justify-content: center;
+    margin-top: 20rem;
+    box-shadow: -6px 8px 6px -6px rgba(0, 0, 0, 0.7);
+}
+
+
+.container1{
+    background-color:#00afb9 ;
+    height: 60vh;
+    width: 125vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* width: 100%; */
+    margin-bottom:20rem;
+   border-bottom-left-radius: 4rem;
+   border-bottom-right-radius: 4rem;
+   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.7);
+}
+
+.container h1{
+    text-align: center;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border:1px solid lightgray;
+    font-size: 1rem;
+    height:3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width:3rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:7rem;
+    border-radius: 0.5rem;
+    border:1px solid lightgray;
+}
+
+.select-container select{
+    font-size: 1rem;
+}
+.msg{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    /* color: rgba(118, 113, 113, 0.914); */
+    color:black;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+button{
+    height: 3rem;
+    /* width:6rem; */
+    justify-content: center;
+    background-color: green;
+    color:white;
+    font-size: 1.15rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
